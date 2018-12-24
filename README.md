@@ -2,6 +2,8 @@
 
 [![GoDoc](https://godoc.org/github.com/orkunkaraduman/go-syncex?status.svg)](https://godoc.org/github.com/orkunkaraduman/go-syncex)
 
-The repository provides `syncex` package. `syncex` includes:
+Extended synchronization for GoLang.
+
+`syncex` includes:
 * ReentrantMutex
 * CriticalSection
