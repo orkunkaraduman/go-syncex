@@ -5,5 +5,5 @@
 Extended synchronization for GoLang.
 
 `syncex` includes:
-* ReentrantMutex
+* RecursiveMutex (ReentrantMutex)
 * CriticalSection
