@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/orkunkaraduman/go-syncex"
+	syncex "github.com/orkunkaraduman/go-syncex"
 )
 
 func main() {
-	var mu syncex.ReentrantMutex
+	var mu syncex.RecursiveMutex
 	var f int
 	mu.Lock()
 	for i := 0; i < 5; i++ {

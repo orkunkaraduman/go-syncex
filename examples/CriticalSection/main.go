@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/orkunkaraduman/go-syncex"
+	syncex "github.com/orkunkaraduman/go-syncex"
 )
 
 func main() {
