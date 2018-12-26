@@ -7,7 +7,7 @@ import (
 // A CriticalSection is particular type of mutual exclusion (mutex) that
 // may be locked multiple times by the same owner.
 //
-// The CriticalSection is faster than ReentrantMutex.
+// The CriticalSection is faster than RecursiveMutex.
 //
 // A CriticalSection must not be copied after first use.
 type CriticalSection struct {
